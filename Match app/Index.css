@@ -1,0 +1,46 @@
+body {
+    background-color: #494947;
+}
+
+H1 {
+    color: #ff2800;
+}
+
+H2 {
+    color: #FFFFFF;
+}
+
+H3 {
+    color: #ff2800;
+
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #ff2800;
+}
+
+ol {
+    color: #FFFFFF;
+
+}
+
+ul {
+    color: #FFFFFF;
+}
+
+legend {
+    color: #ff2800;
+}
+
+fieldset {
+    color: #FFFFFF;
+}
+
+button{
+    background-color: #FFF200;
+    color: #494947;
+}
