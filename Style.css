@@ -1,0 +1,61 @@
+body{
+    background-color: orange;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 100px;
+    margin: auto;
+}
+h2{
+    font-size: 40px;
+    margin: auto;
+}
+p{
+    margin: auto;
+    font-size: 16px;
+}
+#flexbox{
+    padding:10px;
+    margin: 40px;
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+}
+
+a{
+    color: black;
+    font-size: 16px;
+}
+a:hover{
+    background-color: orange;
+    border-color: orange;
+    border-width: 2px;
+    border-style: solid;
+}
+li{
+    color: black;
+    margin: auto;
+    list-style: none;
+    text-align: center;
+}
+div.col {
+    margin: auto;
+    padding: 5%;
+    position: center;
+    border: 1px solid rgb orange;
+    margin: 2px;
+    border-radius:10px;
+}
+footer{
+    width: 40vw;
+    margin: auto;
+    text-align: center;
+}
+
+footer a:hover {
+    background-color: yellow;
+}
