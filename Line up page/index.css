@@ -1,0 +1,117 @@
+@import url("https://use.typekit.net/hfi1kak.css");
+
+:root {
+    --bgc-01: hsl(0, 0%, 02%);  
+    --txt-01: #ffff;
+    --txt-02: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bgc-01);
+    color: var(--txt-01);
+    font-family: "Segoe UI", Black;
+    line-height: 1;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    background-color: var(--bgc-02);
+    padding: 1rem ;
+    color: var(--txt-02)
+}
+
+header nav li{
+    display: inline-block;
+}
+
+header img{
+    width: 5rem;
+}
+
+header .logo {
+    justify-self: center;
+}
+
+h2 {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none  ;
+    margin: 10px;
+}
+
+header, main {
+    padding: 1rem;
+}
+
+header h1 {
+    display: inline-block;
+    margin-left: 0.2ch;
+    font-weight: 600;
+}
+
+header nav {
+    justify-self: end;
+    align-self: center;
+}
+
+header nav li:hover {
+color: lightskyblue;
+
+}
+
+/* main vormgeving */
+
+main {
+    background-image: url(https://wmimages.bruzz.be/styles/cb5048ca7f89e231c928e0a37d7e49dbae1ead4e/2022-02/raverebels-nachtschaduw-press-028.jpg?style=W3sicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsIndpZHRoIjoxMjAwLCJoZWlnaHQiOjYzMCwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfX0seyJqcGVnIjp7InF1YWxpdHkiOjc1fX1d&sign=530c608bb2afb45c66864667a0886e65e4bf6f056ae7215e6450bdbe50a59d41);
+    font-family: "Segoe UI", Black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-left: 110px;
+    margin-right: 50px;
+}
+
+.grid-item img {
+    width: 80%; 
+    height: 80%; 
+    border-style: ridge;
+    border-color: #FFFFFF;
+}
+
+.grid-item {
+    position: relative;
+}
+
+.grid-item h3 {
+    position: absolute;
+    bottom: 90px;
+    left: 10px;
+    letter-spacing: 0.5ch;
+}
+
+.grid-item p {
+    position: absolute;
+    bottom: 65px;
+    left: 10px;
+    letter-spacing: 0.5ch;
+}
