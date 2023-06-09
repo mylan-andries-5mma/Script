@@ -1,9 +1,9 @@
 @import url("https://use.typekit.net/hfi1kak.css");
 
 :root {
-    --bgc-01: hsl(0, 0%, 02%);  
-    --txt-01: #ffff;
-    --txt-02: #FFFFFF;
+    --bgc-01: white (0, 0%, 02%);  
+    --txt-01: white;
+    --txt-02: black;
 }
 
 * {
@@ -72,14 +72,18 @@ header nav {
 }
 
 header nav li:hover {
-color: lightskyblue;
+color: lightsalmon;
 
 }
 
 /* main vormgeving */
 
 main {
-    background-image: url(https://wmimages.bruzz.be/styles/cb5048ca7f89e231c928e0a37d7e49dbae1ead4e/2022-02/raverebels-nachtschaduw-press-028.jpg?style=W3sicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsIndpZHRoIjoxMjAwLCJoZWlnaHQiOjYzMCwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfX0seyJqcGVnIjp7InF1YWxpdHkiOjc1fX1d&sign=530c608bb2afb45c66864667a0886e65e4bf6f056ae7215e6450bdbe50a59d41);
+    background-image: url(bagr.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
     font-family: "Segoe UI", Black;
 }
 
@@ -117,7 +121,7 @@ main {
 }
 
 footer {
-    background: #111;
+    background: white;
 
     height: auto;
     width: 100%;
@@ -126,7 +130,7 @@ footer {
     font-weight: 50;
 
     padding-top: 10px;
-    color: #FFF;
+    color: black;
 }
 
 .footer-top {
@@ -152,10 +156,11 @@ footer {
 }
 
 .footer-bottom {
-    background: #000;
+    background: black;
     width: 100%;
     height: 50px;
     text-align: center;
+    color: white;
 }
 
 .footer-bottom p {

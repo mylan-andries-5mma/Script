@@ -1,9 +1,9 @@
 @import url("https://use.typekit.net/hfi1kak.css");
 
 :root {
-    --bgc-01: hsl(0, 0%, 02%);  
-    --txt-01: #ffff;
-    --txt-02: #FFFFFF;
+    --bgc-01: white(0, 0%, 02%);  
+    --txt-01: white;
+    --txt-02: black;
 }
 
 * {
@@ -47,6 +47,10 @@ h1 {
     text-align: center;
 }
 
+#text-content h1 {
+    text-align: left;
+}
+
 p {
     font-weight: 600;
 }
@@ -72,14 +76,18 @@ header nav {
 }
 
 header nav li:hover {
-color: lightskyblue;
+color: lightsalmon;
 
 }
 
 /* main vormgeving */
 
 main {
-    background-image: url(https://wmimages.bruzz.be/styles/cb5048ca7f89e231c928e0a37d7e49dbae1ead4e/2022-02/raverebels-nachtschaduw-press-028.jpg?style=W3sicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsIndpZHRoIjoxMjAwLCJoZWlnaHQiOjYzMCwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfX0seyJqcGVnIjp7InF1YWxpdHkiOjc1fX1d&sign=530c608bb2afb45c66864667a0886e65e4bf6f056ae7215e6450bdbe50a59d41);
+    background-image: url(bagr.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
     font-family: "Segoe UI", Black;
 }
 
@@ -96,11 +104,16 @@ iframe {
 
 #artist .grid-container { 
     grid-template-columns: 2fr 1fr;
+    padding: 50px;
+    background-color: #000;
 }
 
 #artist p {
-    margin-left: 100%;
-    margin-top: 100%;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-size: 12px;
+    text-align: justify;
+    color: #FFF;
 }
 
 .grid-container {
@@ -111,9 +124,9 @@ iframe {
     margin-right: 50px;
 }
 
-.grid-item img {
-    width: 80%; 
-    height: 80%; 
+#artist .grid-item img {
+    width: 100%;
+    height: 100%;
     border-style: ridge;
     border-color: #FFFFFF;
 }
@@ -137,7 +150,7 @@ iframe {
 }
 
 footer {
-    background: #111;
+    background: white;
 
     height: auto;
     width: 100%;
@@ -146,7 +159,7 @@ footer {
     font-weight: 50;
 
     padding-top: 10px;
-    color: #FFF;
+    color: black;
 }
 
 .footer-top {
@@ -172,10 +185,11 @@ footer {
 }
 
 .footer-bottom {
-    background: #000;
+    background: black;
     width: 100%;
     height: 50px;
     text-align: center;
+    color: white;
 }
 
 .footer-bottom p {
